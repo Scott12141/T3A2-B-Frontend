@@ -6,7 +6,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 
 function DrinkTable() {
   return (
-    <Card class="other-drink">
+    <Card className="other-drink">
       <ListGroup variant="flush">
         <ListGroup.Item><strong>Soft Drinks - $4</strong></ListGroup.Item>
         <ListGroup.Item>Coke</ListGroup.Item>

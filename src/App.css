@@ -64,12 +64,7 @@
 .other-drinks {
   display: flex;
   justify-content: center;
-}
-
-.other-drink {
-  display: flex;
-  flex-direction: row;
-
+  padding-bottom: 30px;
 }
 
 .nav {

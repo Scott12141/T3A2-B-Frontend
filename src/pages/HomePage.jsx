@@ -1,8 +1,17 @@
+import HomeCarousel from "../components/HomeCarousel";
+import Container from 'react-bootstrap/Container';
 
 export default function HomePage(props){
     return (
-        <div>
-            <h1>Welcome</h1>
+        <div className="home-section">
+            <h1>Welcome to TMDB!</h1>
+
+            <Container>
+                <HomeCarousel />
+            </Container>
+            
         </div>
+
+        
     )
 }

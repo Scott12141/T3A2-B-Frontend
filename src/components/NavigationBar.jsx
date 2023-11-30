@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 export default function NavBar(props){
     return (
-        <nav class="nav">
+        <nav className="nav">
 
                 <li>
                     <NavLink to="/" style={({isActive}) => isActive ? {color: "red", textDecoration: 'none' } : undefined}>

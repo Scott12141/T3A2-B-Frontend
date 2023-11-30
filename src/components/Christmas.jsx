@@ -1,11 +1,11 @@
 import ListGroup from 'react-bootstrap/ListGroup';
 import Card from 'react-bootstrap/Card';
-import christmas from "../assets/christmas.jpg";
+
 
 function ChristmasSpecial() {
   return (
     <Card style={{ width: '40rem' }}>
-      <Card.Img variant="top" src={christmas} />
+      <Card.Img variant="top" src={"https://images.unsplash.com/photo-1606380588857-be5f032aeeee?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=libby-penner-tk2oBayHYwg-unsplash.jpg"} />
       <Card.Body>
         <Card.Title><strong><u>Christmas Special</u></strong></Card.Title>
       </Card.Body>

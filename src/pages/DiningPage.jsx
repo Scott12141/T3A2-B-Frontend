@@ -7,32 +7,29 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import onionrings from "../assets/onionrings.jpg";
-import loaf from "../assets/loaf.jpg";
-import salad from "../assets/salad.jpg";
 
-
+let onionrings = "https://images.unsplash.com/photo-1639024471283-03518883512d?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=esperanza-doronila-4FO9vox0T7M-unsplash.jpg"
 
 
 // Entree 
 const entree = [
-    {
+    {   
         id: 1,
         name: "Beer battered onion rings $17.50",
         description: "Served with BBQ aioli",
-        imageUrl: onionrings
+        imageUrl: ["https://images.unsplash.com/photo-1639024471283-03518883512d?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=esperanza-doronila-4FO9vox0T7M-unsplash.jpg"]
     },
     {
         id: 2,
         name: "Warm cob loaf $12.50",
         description: "Served with olive oil and balsamic vinegar",
-        imageUrl: loaf
+        imageUrl: ["https://images.unsplash.com/photo-1600398138360-ae1ac2285bc3?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=christina-rumpf-akUGEvlqPrg-unsplash.jpg"]
     },
     {
         id: 3,
         name: "Pumpkin, beetroot and goats cheese salad $20",
         description: "Roasted pumpkin, beetroot, marinated goats cheese, baby spinach and toasted walnuts",
-        imageUrl: salad
+        imageUrl: ["https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=taylor-kiser-EvoIiaIVRzU-unsplash.jpg"]
     },
     {
         id: 4,
@@ -53,13 +50,13 @@ const main = [
         id: 6,
         name: "Rib-eye Steak $40",
         description: "With red wine jus, kipfler potatoes and sauteed garlic greens",
-        imageUrl: loaf
+        imageUrl: onionrings
     },
     {
         id: 7,
         name: "Crispy Skin Salmon $35",
         description: "On smashed potatoes with a burnt butter caper reduction",
-        imageUrl: salad
+        imageUrl: onionrings
     },
     {
         id: 8,

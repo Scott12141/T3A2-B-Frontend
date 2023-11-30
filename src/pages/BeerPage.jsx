@@ -4,13 +4,12 @@ import BeerSize from "../components/BeerSize";
 import WineList from "../components/WineList";
 import DrinkTable from "../components/DrinkTable";
 
-import beer from "../assets/beer.jpg"
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-
+let beer = "https://images.unsplash.com/photo-1644085159560-8b6745fc8b60?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=jan-gunnar-nygard-6C6PNsRxqMg-unsplash.jpg"
 
 export const craftBeer = [
     {
@@ -18,90 +17,54 @@ export const craftBeer = [
         name: "India Pale Ale (IPA)",
         description: "One of the most popular craft beers for more than a decade the IPA is characterised by floral, fruity, citrus-like, piney hop character, the IPA beer style is all about hop flavor, aroma and bitterness",
         imageUrl: beer,
-        sixPack: "$22",
-        sixPackValue: 22,
-        slab: "$70",
-        slabValue: 70
     },
     {
         id: 21,
         name: "Belgian Blonde Ale",
         description: "The Belgian-style blonde ale is typically easy-drinking, with a low but pleasing hop bitterness. This is a light- to medium-bodied ale, with a low malt aroma that has a spiced and fruity-ester character. This style is medium in sweetness and it is brilliantly clear. The overall impression is balance between light sweetness, spice and low to medium fruity ester flavors.",
         imageUrl: beer,
-        sixPack: "$22",
-        sixPackValue: 22,
-        slab: "$70",
-        slabValue: 70
     },
     {
         id: 22,
         name: "Belgian Witbier",
         description: "Belgian-style witbier is brewed using unmalted wheat, sometimes oats and malted barley. Witbiers are spiced with coriander and orange peel. “Wit” means white.",
         imageUrl: beer,
-        sixPack: "$22",
-        sixPackValue: 22,
-        slab: "$70",
-        slabValue: 70
     },
     {
         id: 23,
         name: "Draught",
         description: "Fresh, cold and straight out of the keg. A standard Australian draught beer.",
         imageUrl: beer,
-        sixPack: "$20",
-        sixPackValue: 20,
-        slab: "$60",
-        slabValue: 60
     },
     {
         id: 24,
         name: "English Bitter",
         description: "The English-style bitter is a very sessionable, lower-alcohol, malt-driven style. The light to medium bodied ordinary bitter is gold to copper in color, with a low residual malt sweetness.",
         imageUrl: beer,
-        sixPack: "$20",
-        sixPackValue: 20,
-        slab: "$60",
-        slabValue: 60
     },
     {
         id: 25,
         name: "English Brown-Ale",
         description: "A bona fide English beer classic, English-style brown ale is easily one of the most iconic beer styles. Toasty, robust and with a bit of chocolate maltiness, the English brown ale is a meal in a glass. A dry, roasted version that offers a toasted nut, chocolatey character indicative of brown ales.",
         imageUrl: beer,
-        sixPack: "$25",
-        sixPackValue: 25,
-        slab: "$80",
-        slabValue: 80
     },
     {
         id: 26,
         name: "German Hefeweizen",
         description: "The German-style hefeweizen offers a striking beer experience thanks to the use of distinctive wheat malt, unique yeast and uncharateristic appearance. Showcasing yeast-driven fruit and spice as well as bearing an eye-catching mystique.",
         imageUrl: beer,
-        sixPack: "$22",
-        sixPackValue: 22,
-        slab: "$70",
-        slabValue: 70
     },
     {
         id: 27,
         name: "German Pilsener",
         description: "A German-style pilsner is pale in color with a malty sweetness that can be perceived in aroma and flavor. Hop aroma and flavor are moderate and quite obvious.",
         imageUrl: beer,
-        sixPack: "$22",
-        sixPackValue: 22,
-        slab: "$70",
-        slabValue: 70
     },
     {
         id: 28,
         name: "Lager",
         description: "This Lager is characterized by malty aroma and slight malt sweetness. The malt aroma and flavor should have a notable degree of toasted and/or slightly roasted malt character.",
         imageUrl: beer,
-        sixPack: "$20",
-        sixPackValue: 20,
-        slab: "$60",
-        slabValue: 60
     }
 ]
 const wineList = [
@@ -181,36 +144,10 @@ export default function BeerPage(){
                 </Row>
             </Container>
                 <h2>Other Drinks</h2>
-            <div class="other-drinks">
-                {/* <h2>Other Drinks</h2> */}
+            <div className="other-drinks">
 
                     <DrinkTable />
-
-
-                    {/* <strong><u>Soft drinks - $4</u></strong>
-                    <ul id="remove">
-                        <li>Coke</li>
-                        <li>Fanta</li>
-                        <li>Lemon Squash</li>
-                        <li>Raspberry Lemonade</li>
-                    </ul>
-                    <strong><u>Coffee - $5</u></strong>
-                    <ul id="remove">
-                        <li>Latte</li>
-                        <li>Cuppacino</li>
-                        <li>Flat white</li>
-                    </ul>
-                    <p><strong><u>Tea - $5</u></strong></p>
-                    <p><strong><u>Iced Coffee - $7</u></strong></p>
-                    <p><strong><u>Iced Chocolate - $7</u></strong></p>
-                    <strong><u>Milkshakes - $8</u></strong>
-                    <ul id="remove">
-                        <li>Chocolate</li>
-                        <li>Strawberry</li>
-                        <li>Banana</li>
-                    </ul> */}
-
-                
+                                    
             </div>
 
             <ReturnHomeButton />
