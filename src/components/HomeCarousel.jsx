@@ -9,7 +9,7 @@ function HomeCarousel() {
               src="https://images.unsplash.com/photo-1606380588857-be5f032aeeee?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=libby-penner-tk2oBayHYwg-unsplash.jpg"
               alt="Christmas Special"
             />
-            <Carousel.Caption style={{ color: 'yellow', fontSize: '70%'}}>
+            <Carousel.Caption style={{ color: 'yellow'}}>
               <h5>Christmas Special</h5>
               <p>Check out our Christmas day <a href="/dining">special menu</a>, that is for designed for groups of 4 plus as a set menu with a main of your choice.</p>
             </Carousel.Caption>

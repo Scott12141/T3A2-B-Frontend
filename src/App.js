@@ -18,9 +18,11 @@ import FootNotes from './components/FootNotes';
 function App() {
   return (
     <div className="App">
-
-      <h1>Taylor Made Dining and Brewery</h1>
-      <NavBar/>
+      <div className="header">
+        <h1 style={{padding: '15px', color: '#CDCECC'}}>Taylor Made Dining and Brewery</h1>
+        <NavBar/>
+      </div>
+      
       
     <Routes>
       <Route path="/" element={<HomePage />} />

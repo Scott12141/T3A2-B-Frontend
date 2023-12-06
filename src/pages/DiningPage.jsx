@@ -98,7 +98,7 @@ export default function DiningPage(){
     
     return (
 
-        <div>
+        <div className="home-section">
             <h1>The Dining Menu</h1>
 
             <Container fluid className="mx-auto">

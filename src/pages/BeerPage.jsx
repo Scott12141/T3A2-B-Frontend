@@ -106,7 +106,7 @@ const wineList = [
 
 export default function BeerPage(){
     return (
-        <div className="drinks">   
+        <div className="home-section">   
             <h1>Beverage List</h1>
                
             <Container fluid className="mx-auto">
