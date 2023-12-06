@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .App-logo {
@@ -72,3 +76,21 @@
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  flex-basis: 100%;
+}
+
+.social-medias{
+  max-width: 50%;
+}
+
+.social-medias img{
+  width: 15%;
+  height: auto;
+  padding: 15px;
+}
+

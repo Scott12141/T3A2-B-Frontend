@@ -10,6 +10,10 @@ import NavBar from './components/NavigationBar';
 import BookingForm from './pages/BookingForm';
 import BookingViewer from './pages/BookingViewer';
 import CreateAccount from './pages/CreateAccount';
+import SocialMedia from './components/SocialMedia';
+import FootNotes from './components/FootNotes';
+
+
 
 function App() {
   return (
@@ -37,6 +41,12 @@ function App() {
       <Route path="/dining" element={<DiningPage />} />
 
     </Routes>
+
+      <div className="footer">
+        <br/>
+        <SocialMedia/>
+        <FootNotes />
+      </div>
 
     </div>
   );
