@@ -15,7 +15,9 @@ import FootNotes from './components/FootNotes';
 
 
 
+
 function App() {
+
   return (
     <div className="App">
       <div className="header">
@@ -27,17 +29,17 @@ function App() {
     <Routes>
       <Route path="/" element={<HomePage />} />
 
-      <Route path="/booking" element={<Outlet />}>
+      <Route path="/bookings" element={<Outlet />}>
         <Route index element={<BookingPage />}/>
-        <Route path="bookingForm" element={<BookingForm />} />
-        <Route path="bookingViewer" element={<BookingViewer />} />
+        <Route path="bookingform" element={<BookingForm />} />
+        <Route path="bookingviewer" element={<BookingViewer />} />
       </Route>
 
       <Route path="/beer" element={<BeerPage />} />
 
-      <Route path="/log-in" element={<Outlet />}>
+      <Route path="/users" element={<Outlet />}>
         <Route index element={<LogInPage />}/>
-        <Route path="createAccount" element={<CreateAccount />} />
+        <Route path="createaccount" element={<CreateAccount />} />
       </Route>
 
       <Route path="/dining" element={<DiningPage />} />
