@@ -20,23 +20,23 @@ export default function LogInPage(props){
 
         console.log(data)
 
-        setJwt(data)
-    }
+        //setJwt(data)
+    };
 
     return (
         <div className="loginbox">
 
-            <form className="loginform"> 
-                <label>Email: </label>
-                <input type="text" name="emailInput"  id="emailInput" value={email} onChange={(event) => setEmail(event.target.value)} />
-                
-                <label>Password: </label>
-                <input type="password" name="passwordInput"  id="passwordInput" value={password} onChange={(event) => setPassword(event.target.value)} />
+            
+            <label>Email: </label>
+            <input type="text" name="emailInput"  id="emailInput" value={email} onChange={(event) => setEmail(event.target.value)} />
+            
+            <label>Password: </label>
+            <input type="password" name="passwordInput"  id="passwordInput" value={password} onChange={(event) => setPassword(event.target.value)} />
 
-                <button onClick={login}>
-                    Log In
-                </button>
-            </form>
+            <button onClick={login}>
+                Log In
+            </button>
+            
 
             <div>
                 If you are not already a registered user you can create a new account <a href="/users/createaccount">here!</a>
