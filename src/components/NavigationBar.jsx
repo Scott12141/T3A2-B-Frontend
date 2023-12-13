@@ -21,12 +21,12 @@ export default function NavBar(props){
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/booking" style={({isActive}) => isActive ? {color: "red", textDecoration: 'none' } : undefined}>
+                    <NavLink to="/bookings" style={({isActive}) => isActive ? {color: "red", textDecoration: 'none' } : undefined}>
                         Bookings
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/log-in" style={({isActive}) => isActive ? {color: "red", textDecoration: 'none' } : undefined}>
+                    <NavLink to="/users" style={({isActive}) => isActive ? {color: "red", textDecoration: 'none' } : undefined}>
                         Log In
                     </NavLink>
                 </li>
