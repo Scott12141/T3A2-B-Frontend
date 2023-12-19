@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import { useContext,  useEffect,  useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 //import { AuthContext } from '../components/AuthenticationContext';
 
 
@@ -66,7 +66,7 @@ export default function LogInPage(props){
             </button>
             
             <div>
-                If you are not already a registered user you can create a new account <a href="/users/createaccount">here!</a>
+                If you are not already a registered user you can create a new account <Link to="/users/createaccount">here!</Link>
             </div>
 
             <div>

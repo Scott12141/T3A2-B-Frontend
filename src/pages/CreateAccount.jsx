@@ -11,9 +11,7 @@ export default function CreateAccount(){
     const [message, setMessage] = useState("")
     const navigate = useNavigate();
 
-    useEffect(() => {
-        //console.log("User Created")
-    },[]);
+    useEffect(() => {console.log("User Created")},[]);
 
     async function create(){
         try{
