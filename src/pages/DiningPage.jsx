@@ -6,6 +6,7 @@ import ChristmasSpecial from "../components/Christmas";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import MakeBookingButton from "../components/MakeBooking";
 
 
 let onionrings = "https://images.unsplash.com/photo-1639024471283-03518883512d?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=esperanza-doronila-4FO9vox0T7M-unsplash.jpg"
@@ -158,8 +159,12 @@ export default function DiningPage(){
                 })}
                 </Row>
             </Container>
-
-            <ReturnHomeButton />
+            
+            <div className="NavHomeBook">
+                <ReturnHomeButton />
+                <MakeBookingButton />
+            </div>
+            
         </div>
     )
 }

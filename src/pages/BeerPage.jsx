@@ -1,8 +1,9 @@
 import ReturnHomeButton from "../components/ReturnHome";
+import MakeBookingButton from "../components/MakeBooking";
 import MenuCard from "../components/MenuCard";
 import BeerSize from "../components/BeerSize";
 import WineList from "../components/WineList";
-import DrinkTable from "../components/DrinkTable";
+
 
 
 import Container from 'react-bootstrap/Container';
@@ -143,14 +144,13 @@ export default function BeerPage(){
                 })}
                 </Row>
             </Container>
-                <h2>Other Drinks</h2>
-            <div className="other-drinks">
-
-                    <DrinkTable />
-                                    
+            
+            <div className="NavHomeBook">
+                <ReturnHomeButton />
+                <MakeBookingButton />
             </div>
 
-            <ReturnHomeButton />
+            
         </div>
     )
 }
