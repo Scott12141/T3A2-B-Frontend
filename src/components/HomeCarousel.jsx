@@ -23,7 +23,7 @@ function HomeCarousel() {
             />
             <Carousel.Caption style={{ color: 'red'}}>
               <h5>Taylor made Thursdays!</h5>
-              <p>Every Thursday night at Taylor Made Dining & Brewery, we will be running the promotion for Taylor Made Thursdays. All meals on the dining menu will be 25% off the rrp. <Link to="/booking">Make sure to book asap</Link> as tables go quickly for this amazing offer!</p>
+              <p>Every Thursday night at Taylor Made Dining & Brewery, we will be running the promotion for Taylor Made Thursdays. All meals on the dining menu will be 25% off the rrp. <Link to="/bookings">Make sure to book asap</Link> as tables go quickly for this amazing offer!</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
