@@ -77,7 +77,7 @@ const wineList = [
         type1: "Shiraz",
         type2: "Cabernet",
         type3: "Merlot",
-        imageUrl: beer
+        imageUrl: ["https://images.pexels.com/photos/2702805/pexels-photo-2702805.jpeg?cs=srgb&dl=pexels-bernyce-hollingworth-2702805.jpg"]
     },
     {
         id: 31,
@@ -87,7 +87,7 @@ const wineList = [
         type1: "Chardonnay",
         type2: "Reisling",
         type3: "Pinot",
-        imageUrl: beer
+        imageUrl: ["https://images.pexels.com/photos/3171735/pexels-photo-3171735.jpeg?cs=srgb&dl=pexels-cottonbro-studio-3171735.jpg"]
     },
     {
         id: 32,
@@ -97,7 +97,7 @@ const wineList = [
         type1: "Champagne",
         type2: "Prosecco",
         type3: "Cava",
-        imageUrl: beer
+        imageUrl: ["https://images.unsplash.com/photo-1613477581402-306fa9dc6b95?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=oliver-sherwin-f54dnkSRSMc-unsplash.jpg"]
     }
 ]
 
