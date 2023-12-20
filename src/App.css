@@ -111,3 +111,53 @@
   flex-direction: column;
   padding-top: 15px;
 }
+
+.NavHomeBook{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.bookingmain{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 50vh;
+  background-color: #9C7658;
+  max-width: 50%;
+  margin: auto;
+}
+
+.bookdivs h1{
+  padding-bottom: 10px;
+}
+
+.createbookingbox{
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  align-items: center;
+  background-color: #9C7658;
+  margin: auto;
+  overflow: hidden;
+}
+
+.createbookingbox input{
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.createbookingbox button{
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.createbookingbox label{
+  color: #CDCECC ;
+}
+
+.createbookingbox p{
+  color: #CDCECC; 
+  font-size: large;
+}

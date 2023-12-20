@@ -41,31 +41,33 @@ export default function BookingForm(props){
 
 
     return(
-        <div className="createbookingbox">
-            <h1>Make a booking.</h1>
+        <div className="home-section">
+            <div className="createbookingbox">
+                <h1>Make a booking.</h1>
 
-                <label>Date: </label>
-                <input type="text" name="dateInput"  id="dateInput" required value={date} onChange={(event) => setDate(event.target.value)} />
+                    <label>Date: </label>
+                    <input type="text" name="dateInput"  id="dateInput" required value={date} onChange={(event) => setDate(event.target.value)} />
 
-                <label>Name: </label>
-                <input type="text" name="nameInput"  id="nameInput" required value={name} onChange={(event) => setName(event.target.value)} />
-            
-                <label>Email: </label>
-                <input type="text" name="emailInput"  id="emailInput" required value={email} onChange={(event) => setEmail(event.target.value)} />
+                    <label>Name: </label>
+                    <input type="text" name="nameInput"  id="nameInput" required value={name} onChange={(event) => setName(event.target.value)} />
                 
-                <label>Phone Number: </label>
-                <input type="text" name="phoneNumberInput"  id="phoneNumberInput" required value={phoneNumber} onChange={(event) => setPhoneNumber(event.target.value)} />
+                    <label>Email: </label>
+                    <input type="text" name="emailInput"  id="emailInput" required value={email} onChange={(event) => setEmail(event.target.value)} />
+                    
+                    <label>Phone Number: </label>
+                    <input type="text" name="phoneNumberInput"  id="phoneNumberInput" required value={phoneNumber} onChange={(event) => setPhoneNumber(event.target.value)} />
 
-                <label>Booking Size: </label>
-                <input type="text" name="bookingSizeInput"  id="bookingSizeInput" value={bookingSize} onChange={(event) => setBookingSize(event.target.value)} />
+                    <label>Booking Size: </label>
+                    <input type="text" name="bookingSizeInput"  id="bookingSizeInput" value={bookingSize} onChange={(event) => setBookingSize(event.target.value)} />
 
-                <label>Special requirements/Comments: </label>
-                <input type="text" name="specialRequirementsInput"  id="specialRequirementsInput" value={specialRequirements} onChange={(event) => setSpecialRequirements(event.target.value)} />
+                    <label>Special reqs/Comments: </label>
+                    <input type="text" name="specialRequirementsInput"  id="specialRequirementsInput" value={specialRequirements} onChange={(event) => setSpecialRequirements(event.target.value)} />
 
-                <button onClick={createBooking}>
-                    Create Booking
-                </button>
-                {message && <p>{message}</p>}
+                    <button onClick={createBooking}>
+                        Create Booking
+                    </button>
+                    {message && <p>{message}</p>}
+            </div>
         </div>
     );
 };

@@ -27,7 +27,7 @@ export default function BookingViewer(props){
     }, []);
 
     return (
-        <div>
+        <div className="home-section">
             <h1>Booking Viewer</h1>
             
             <Container fluid className="mx-auto">
