@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Rajdhani&display=swap');
+
 .App {
   text-align: center;
   min-height: 100vh;
@@ -46,6 +48,16 @@
   padding: 35px;
 }
 
+.home-section h1{
+  color: rgb(201, 31, 31);
+  font-family: 'Archivo', sans-serif;;
+}
+
+.home-section h2{
+  color: rgb(201, 31, 31);
+  font-family: 'Archivo', sans-serif;;
+}
+
 .container .row {
   display: flex;
   flex-wrap: wrap;
@@ -78,6 +90,10 @@
 .header{
   padding: 15px;
   background-color: #9C7658;
+}
+
+.header h1{
+  font-family: 'Archivo', sans-serif;;
 }
 
 .nav {
@@ -160,4 +176,85 @@
 .createbookingbox p{
   color: #CDCECC; 
   font-size: large;
+}
+
+.loginbox {
+  display: flex;
+  flex-direction: column;
+  background-color: #9C7658;
+  padding: 35px;
+  align-items: center;
+}
+
+.loginbox button{
+  width: 35%;
+}
+
+.home-section-login{
+  background-color: #CDCECC;
+  min-height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.email {
+  padding: 15px;
+}
+
+.email label{
+  padding-right: 10px;
+}
+
+.password {
+  padding: 15px;
+  padding-right: 47px;
+  padding-bottom: 45px;
+}
+
+.password label{
+  padding-right: 10px;
+}
+
+.createlink {
+  padding-top: 35px;
+  font-size: large;
+}
+
+.createaccountbox {
+  display: flex;
+  flex-direction: column;
+  background-color: #9C7658;
+  padding: 25px;
+  width: 50%;
+  align-items: center;
+}
+
+.createformbox {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  color: #CDCECC ;
+}
+
+.createformbox-address {
+  padding: 15px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  color: #CDCECC ;
+}
+
+.home-section-create{
+  background-color: #CDCECC;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-section-create h1{
+  color: rgb(201, 31, 31);
+  font-family: 'Archivo', sans-serif;;
 }

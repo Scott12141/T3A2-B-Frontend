@@ -51,28 +51,34 @@ export default function LogInPage(props){
     };
 
     return (
-        <div className="loginbox">
+        <div className="home-section-login">
+            <div className="loginbox">
 
-            {errorMessage && <div style={{ color: "red" }}>{errorMessage}</div>}{" "}
+                {errorMessage && <div style={{ color: "red" }}>{errorMessage}</div>}{" "}
 
-            <label>Email: </label>
-            <input type="text" name="emailInput"  id="emailInput" value={email} onChange={(event) => setEmail(event.target.value)} />
+                <div className="email">
+                    <label>Email: </label>
+                    <input type="text" name="emailInput"  id="emailInput" value={email} onChange={(event) => setEmail(event.target.value)} />
+                </div>
+                
+                <div className="password">
+                    <label>Password: </label>
+                    <input type="password" name="passwordInput"  id="passwordInput" value={password} onChange={(event) => setPassword(event.target.value)} />
+                </div>
             
-            <label>Password: </label>
-            <input type="password" name="passwordInput"  id="passwordInput" value={password} onChange={(event) => setPassword(event.target.value)} />
+                <button onClick={login}>
+                    Log In
+                </button>
+                
+                <div className="createlink">
+                    If you are not already a registered user you can create a new account <Link to="/users/createaccount">here!</Link>
+                </div>
 
-            <button onClick={login}>
-                Log In
-            </button>
-            
-            <div>
-                If you are not already a registered user you can create a new account <Link to="/users/createaccount">here!</Link>
+                <div>
+                    {message && <p>{message}</p>}
+                </div>
+
             </div>
-
-            <div>
-                {message && <p>{message}</p>}
-            </div>
-
         </div>
     );
 }

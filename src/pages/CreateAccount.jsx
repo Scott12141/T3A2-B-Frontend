@@ -39,28 +39,41 @@ export default function CreateAccount(){
 
 
     return(
-        <div className="createaccountbox">
-            <h1>Create Your Account.</h1>
-            
-                <label>Email: </label>
-                <input type="text" name="emailInput"  id="emailInput" required value={email} onChange={(event) => setEmail(event.target.value)} />
-                
-                <label>Password: </label>
-                <input type="password" name="passwordInput"  id="passwordInput" required value={password} onChange={(event) => setPassword(event.target.value)} />
+        <div className="home-section-create">
+            <div className="createaccountbox">
 
-                <label>Name: </label>
-                <input type="text" name="nameInput"  id="nameInput" required value={name} onChange={(event) => setName(event.target.value)} />
+                <h1>Create Your Account.</h1>
 
-                <label>Phone Number: </label>
-                <input type="text" name="phoneNumberInput"  id="phoneNumberInput" required value={phoneNumber} onChange={(event) => setPhoneNumber(event.target.value)} />
+                    <div className="createformbox">
+                        <label>Email: </label>
+                        <input type="text" name="emailInput"  id="emailInput" required value={email} onChange={(event) => setEmail(event.target.value)} />
+                    </div>
 
-                <label>Address: </label>
-                <input type="text" name="addressInput"  id="addressInput" value={address} onChange={(event) => setAddress(event.target.value)} />
+                    <div className="createformbox">
+                        <label>Password: </label>
+                        <input type="password" name="passwordInput"  id="passwordInput" required value={password} onChange={(event) => setPassword(event.target.value)} />
+                    </div>
 
-                <button onClick={create}>
-                    Create Account
-                </button>
-                {message && <p>{message}</p>}
+                    <div className="createformbox">
+                        <label>Name: </label>
+                        <input type="text" name="nameInput"  id="nameInput" required value={name} onChange={(event) => setName(event.target.value)} />
+                    </div>
+
+                    <div className="createformbox">
+                        <label>Phone Number: </label>
+                        <input type="text" name="phoneNumberInput"  id="phoneNumberInput" required value={phoneNumber} onChange={(event) => setPhoneNumber(event.target.value)} />
+                    </div>
+
+                    <div className="createformbox-address">
+                        <label>Address: </label>
+                        <input type="text" name="addressInput"  id="addressInput" value={address} onChange={(event) => setAddress(event.target.value)} />
+                    </div>
+
+                    <button onClick={create}>
+                        Create Account
+                    </button>
+                    {message && <p>{message}</p>}
+            </div>
         </div>
     );
 };
