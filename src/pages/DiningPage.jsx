@@ -7,6 +7,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import MakeBookingButton from "../components/MakeBooking";
+import BeerButton from "../components/BeerButton";
 
 
 // Entree 
@@ -160,6 +161,7 @@ export default function DiningPage(){
             <div className="NavHomeBook">
                 <ReturnHomeButton />
                 <MakeBookingButton />
+                <BeerButton />
             </div>
             
         </div>

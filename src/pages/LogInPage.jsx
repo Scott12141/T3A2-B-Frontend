@@ -74,7 +74,7 @@ export default function LogInPage(props){
                     If you are not already a registered user you can create a new account <Link to="/users/createaccount">here!</Link>
                 </div>
 
-                <div>
+                <div className="login-message">
                     {message && <p>{message}</p>}
                 </div>
 

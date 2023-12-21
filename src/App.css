@@ -217,8 +217,14 @@
   padding-right: 10px;
 }
 
+.login-message p{
+  color: #CDCECC; 
+  font-size: large;
+  padding-top: 20px;
+}
 .createlink {
   padding-top: 35px;
+  color: #CDCECC; 
   font-size: large;
 }
 
@@ -229,6 +235,12 @@
   padding: 25px;
   width: 50%;
   align-items: center;
+}
+
+.createaccountbox p{
+  color: #CDCECC; 
+  font-size: large;
+  padding-top: 20px;
 }
 
 .createformbox {
